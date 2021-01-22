@@ -102,7 +102,7 @@ class targeted_Attack_base(object):
             self.seq_axis = 0
             
         # 如果都是同一个random_seed，那么对于不同的被攻击样本的初始化样本总是一样的，因此使用attack_idx作为random_seed.        
-        self.image_ori = vector_to_image(self.model_name, self.dataset_name, self.x0)
+        self.image_ori = vector_to_image(self.model_name, self.dataset_name, self.x0.clone())
         self.MASK = torch.ones(self.x0.size()).cuda()
         
     def classify(self, inp, state=None):
