@@ -1,5 +1,5 @@
 # Heuristic-Black-box-Adversarial-Attack-On-Videos
-Paper code: “Heuristic Black-box Adversarial Attacks on Video Recognition Models”[arxiv](https://arxiv.org/abs/1911.09449).
+Paper code: “Heuristic Black-box Adversarial Attacks on Video Recognition Models”[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6918/6772).
 
 # Dataset
 UCF-101 and HMDB-51 datasets are preprocessing by the methods in [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch).  
